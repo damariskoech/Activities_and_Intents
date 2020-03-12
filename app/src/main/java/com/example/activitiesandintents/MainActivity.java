@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void launchSecondActivity(View view) {
 
-        Intent homeIntent = new Intent(MainActivity.this, Activity_second.class);
-        startActivity(homeIntent);
-        finish();
+
     }
 
 
